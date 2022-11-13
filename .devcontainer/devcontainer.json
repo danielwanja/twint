@@ -1,9 +1,8 @@
 {
 	"name": "Twint Python 3",
 	"build": {
-		"dockerfile": "./Dockerfile",
-	  },	
-	"features": {
+		"dockerfile": "./Dockerfile"
 	},
+	"postCreateCommand": "pwd && ls",
 	"remoteUser": "vscode"
 }
