@@ -3,6 +3,6 @@
 	"build": {
 		"dockerfile": "./Dockerfile"
 	},
-	"postCreateCommand": "pwd && ls",
+	"postCreateCommand": "pip3 install . -r requirements.txt",
 	"remoteUser": "vscode"
 }
