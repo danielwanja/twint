@@ -1,8 +1,9 @@
 {
 	"name": "Twint Python 3",
-	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+	"build": {
+		"dockerfile": "./Dockerfile",
+	  },	
 	"features": {
 	},
-	"postCreateCommand": "pip3 install -r requirements.txt",
 	"remoteUser": "vscode"
 }
