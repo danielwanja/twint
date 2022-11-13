@@ -1,5 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "features": {
-  }
+	"name": "Twint Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+	"features": {
+	},
+	"postCreateCommand": "pip3 install --user -r requirements.txt"
 }
